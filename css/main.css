@@ -1,0 +1,7 @@
+/* 1° importar o arquivo Bootstrap */
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./global.css);
+@import url(./custom.css);
+@import url(./responsive.css);
+/* Nessa ordem por conta da hierarquia*/

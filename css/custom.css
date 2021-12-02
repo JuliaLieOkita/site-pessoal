@@ -147,6 +147,7 @@ p {
     color: #000;
     text-decoration: none;
     transition: all ease-out 0.2s;
+    min-height: 450px;
 }
 
 #projetos a.destaque:hover {

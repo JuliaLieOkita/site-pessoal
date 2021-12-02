@@ -38,43 +38,4 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    // MAGNIFY
-    // Quando na grid, clicar em algum popup-link, aplica-se o método magnificPopUp
-    $(".grid .popup-link").magnificPopup({
-        // Atributos
-        type: "image",
-        gallery: {
-            enabled: true,
-            tPrev: "Anterior",
-            tNext: "Próxima",
-            tCounter: "%curr% de %total%",
-        },
-    });
-
-    // OWL
-    // Via JQuery, encontrará o elemento com a classe .owl-carousel e aplicará o método owlCarousel
-    $(".owl-carousel").owlCarousel({
-        // Quando chegar no último, volta para o 1°
-        loop: true,
-        margin: 30,
-        autoplay: false,
-        autoplayTimeout: 6000,
-        dots: true,
-        // Deixa para carregar os elementos quando estiverem na tela
-        lazyLoad: true,
-        // nav é a navegação (add anterior/próximo)
-        nav: false,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1,
-            },
-            1000: {
-                items: 2,
-            },
-        },
-    });
-
 });

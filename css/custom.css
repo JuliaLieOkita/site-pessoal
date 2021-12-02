@@ -46,7 +46,7 @@ p {
 }
 
 #inicio {
-    background: url(/assets/paginaInicial_bg.svg) no-repeat bottom;
+    background: url(assets/paginaInicial_bg.svg) no-repeat bottom;
 }
 
 #inicio h1 {
